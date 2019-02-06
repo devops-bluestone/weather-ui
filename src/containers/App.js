@@ -57,7 +57,7 @@ class App extends Component {
       <div>
           <br />
           <div className="form-group">
-              <input placeholder='Adheip Singh Is Great' className="form-control" id='address' tabIndex='1' onKeyPress={this.handleKeyPress} />
+              <input placeholder='Kwame Is Great' className="form-control" id='address' tabIndex='1' onKeyPress={this.handleKeyPress} />
               <br />
               <h4 id='renderedAddress'>{foundAddress === '' ? ' ' : foundAddress}</h4>
               <br />
